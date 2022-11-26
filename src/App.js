@@ -12,7 +12,10 @@ function App() {
     <div
       className="app"
       style={{
-        backgroundImage: `linear-gradient(to bottom, rgba(43, 19, 93, 0.75), rgba(43, 43, 43, 0.75)), url(${images.back01})`,
+        backgroundImage: `linear-gradient(to bottom, rgba(43, 19, 93, 0.75), rgba(43, 43, 43, 0.75)), url(${images.back01}) no-repeat`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
       }}
     >
       <Routes>

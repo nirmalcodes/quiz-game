@@ -12,9 +12,7 @@ const Home = () => {
   };
 
   const myFunctionA = () => {
-    // your logic here
     navigate("/quiz?qId=1");
-    // console.log("pressed Enter ✅");
   };
   const myFunctionB = () => {
     // your logic here
@@ -24,19 +22,15 @@ const Home = () => {
 
   useEffect(() => {
     const keyDownHandler = (event) => {
-      console.log("User pressed: ", event.key);
+      // console.log("User pressed: ", event.key);
 
       if (event.key === "1") {
         event.preventDefault();
-
-        // 👇️ your logic here
         myFunctionA();
       }
 
       if (event.key === "2") {
         event.preventDefault();
-
-        // 👇️ your logic here
         myFunctionB();
       }
     };
@@ -56,7 +50,7 @@ const Home = () => {
       <Container>
         <Row className="align_center content_cente">
           <Col md={6}>
-            <img src={images.nanotekLogo} alt="" />
+            <img src={images.nanotekLogo} alt="" className="img-fluid"/>
           </Col>
         </Row>
         <Row className="align_center content_cente" hidden>
