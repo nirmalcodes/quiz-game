@@ -1,3 +1,11 @@
+.txt_white {
+  color: var(--txt-light);
+}
+
+.relative {
+  position: relative;
+}
+
 .flex {
   display: flex;
 }
@@ -49,4 +57,13 @@
   font-size: 4rem;
   letter-spacing: 30px;
   color: #090fbd;
+}
+
+.help_button {
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 2rem;
+  line-height: 2rem;
+  border-radius: 69px;
+  background-color: var(--white-color);
 }
