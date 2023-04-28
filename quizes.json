@@ -1,0 +1,86 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "answers": [
+            {
+                "option": "A. New York",
+                "correct": false
+            },
+            {
+                "option": "B. London",
+                "correct": false
+            },
+            {
+                "option": "C. Paris",
+                "correct": true
+            },
+            {
+                "option": "D. Dublin",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Who is CEO of Tesla?",
+        "answers": [
+            {
+                "option": "A. Jeff Bezos",
+                "correct": false
+            },
+            {
+                "option": "B. Elon Musk",
+                "correct": true
+            },
+            {
+                "option": "C. Bill Gates",
+                "correct": false
+            },
+            {
+                "option": "D. Tony Stark",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The iPhone was created by which company?",
+        "answers": [
+            {
+                "option": "A. Apple",
+                "correct": true
+            },
+            {
+                "option": "B. Intel",
+                "correct": false
+            },
+            {
+                "option": "C. Amazon",
+                "correct": false
+            },
+            {
+                "option": "D. Microsoft",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "How many Harry Potter books are there?",
+        "answers": [
+            {
+                "option": "A. 1",
+                "correct": false
+            },
+            {
+                "option": "B. 4",
+                "correct": false
+            },
+            {
+                "option": "C. 6",
+                "correct": false
+            },
+            {
+                "option": "D. 7",
+                "correct": true
+            }
+        ]
+    }
+]
